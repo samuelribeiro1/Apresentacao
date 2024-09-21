@@ -143,7 +143,7 @@ body{
     }
 
     .cabecalho__menu__link{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .apresentacao{
@@ -157,6 +157,7 @@ body{
 
     .apresentacao__conteudo__titulo{
         font-size: 2.3rem;
+        font-family: var(--fonte-sec);
+        color: var(--cor-ter);
     }
 }
-
