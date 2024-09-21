@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
 
 :root {
-    --cor-pri: #001F3F;
-    --cor-sec: #EAD8B1;
-    --cor-ter: #6dc7ff;
-    --cor-hover: #EAD8B1;
+    --cor-pri: #040613;
+    --cor-sec: #c4e2ff;
+    --cor-ter: #009dff;
+    --cor-hover: #0077ff;
 
     --fonte-pri: "Playpen Sans", cursive;
     --fonte-sec: "Roboto Mono", monospace;
@@ -34,12 +34,12 @@ body{
     font-family: var(--fonte-sec);
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--cor-ter);
+    color: var(--cor-sec);
     text-decoration: none;
 }
 
 .cabecalho__menu__link:hover{
-    color: var(--cor-sec);
+    color: var(--cor-hover);
 }
 
 .apresentacao{
@@ -76,7 +76,6 @@ body{
 .apresentacao__conteudo__texto {
     font-size: 1.3rem;
     font-family: var(--fonte-sec);
-    text-align: justify;
 }
 
 .apresentacao__links{
@@ -122,8 +121,8 @@ body{
 }
 
 .rodape {
-    color: var(--cor-pri);
-    background-color: var(--cor-hover);
+    color: var(--cor-sec);
+    background-color: var(--cor-ter);
     padding: 24px;
     font-family: var(--fonte-sec);
     font-size: 1.5rem;
@@ -156,8 +155,23 @@ body{
     }
 
     .apresentacao__conteudo__titulo{
-        font-size: 2.3rem;
+        font-size: 2rem;
         font-family: var(--fonte-sec);
         color: var(--cor-ter);
+    }
+
+    .apresentacao__conteudo__texto{
+        font-size: 1.3rem;
+    }
+
+    .td {
+        color: var(--cor-sec);
+    }
+
+    .apresentacao__links__nav{
+       font-size: 1.2rem;
+    }
+    .foto {
+        width: 80%;
     }
 }
