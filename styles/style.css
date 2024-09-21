@@ -69,7 +69,7 @@ body{
 
 .apresentacao__conteudo__titulo1 {
     font-size: 2.5rem;
-    font-family: var(--fonte-sec);
+    font-family: var(--fonte-hover);
 }
 
 .ling {
