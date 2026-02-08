@@ -4,37 +4,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
-    <title>Portifólio</title>
+    <title>CasaVioleta | Acessórios para o Lar</title>
 </head>
 <body>
     <header class="cabecalho">
         <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="./index.html">Home</a>
-            <a class="cabecalho__menu__link" href="./about.html">Sobre Mim</a>
+            <a class="logo" href="./index.html">CasaVioleta</a>
+            <div class="cabecalho__links">
+                <a class="cabecalho__menu__link" href="#colecoes">Coleções</a>
+                <a class="cabecalho__menu__link" href="#beneficios">Benefícios</a>
+                <a class="cabecalho__menu__link" href="#produtos">Destaques</a>
+                <a class="cabecalho__menu__link" href="./about.html">Sobre</a>
+            </div>
+            <a class="botao botao--secundario" href="#contato">Fale Conosco</a>
         </nav>
     </header>
-    <main class="apresentacao">
-        <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível 
-                <strong class="td">um Front-end de QUALIDADE!</strong></h1>
-                <p class="apresentacao__conteudo__texto">Olá! Sou Samuel Fernandes, desenvolvedor <strong>Front-end com especialidade em React, HTML e CSS.</strong> Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
-                <div class="apresentacao__links">
-                    <h2 class="apresentacao__links__subt">Acesse Minhas Redes:</h2>
-                    <a class="apresentacao__links__nav" href="https://www.instagram.com/eu.samuelribeiro1">
-                        <img src="./assets/instagram.png" alt="instagram icon">
-                        Instagram</a>
-                    <a class="apresentacao__links__nav" href="https://github.com/samuelribeiro1">
-                        <img src="./assets/github.png" alt="github icon">
-                        GitHub</a>
-                    <a class="apresentacao__links__nav" href="https://www.linkedin.com/in/samuel-fernandes-ribeiro-7316b532a/">
-                        <img src="./assets/linkedin.png" alt="linkedin icon">
-                        Linkedin</a>
+
+    <main>
+        <section class="hero">
+            <div class="hero__conteudo">
+                <p class="selo">Novo • Frete rápido em todo Brasil</p>
+                <h1 class="hero__titulo">Acessórios para casa com elegância minimalista e energia violeta.</h1>
+                <p class="hero__texto">Transforme seu lar com peças funcionais, texturas suaves e detalhes marcantes. Curadoria pensada para quem ama um toque contemporâneo em cada canto.</p>
+                <div class="hero__acoes">
+                    <a class="botao" href="#produtos">Comprar agora</a>
+                    <a class="botao botao--fantasma" href="#colecoes">Ver coleções</a>
                 </div>
+                <div class="hero__infos">
+                    <div>
+                        <strong>120+</strong>
+                        <span>Itens exclusivos</span>
+                    </div>
+                    <div>
+                        <strong>4.9/5</strong>
+                        <span>Avaliação média</span>
+                    </div>
+                    <div>
+                        <strong>24h</strong>
+                        <span>Despacho em até 1 dia</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__visual">
+                <div class="hero__card">
+                    <h3>Kit Aroma &amp; Conforto</h3>
+                    <p>Difusores, velas e bandejas em tons púrpura.</p>
+                    <span>A partir de R$ 189</span>
+                </div>
+            </div>
         </section>
-        <img src="./assets/foto1.jpg" alt="Foto Samuel" class="foto">
+
+        <section id="colecoes" class="secao">
+            <header class="secao__cabecalho">
+                <h2>Coleções que abraçam a casa</h2>
+                <p>Escolha a atmosfera ideal para sua sala, quarto ou cozinha com linhas pensadas para organização e estilo.</p>
+            </header>
+            <div class="grid">
+                <article class="card">
+                    <h3>Essenciais Noturnos</h3>
+                    <p>Velas, porta-objetos e luminárias em acabamento fosco.</p>
+                    <a href="#produtos">Explorar</a>
+                </article>
+                <article class="card">
+                    <h3>Organização Serena</h3>
+                    <p>Cestos, bandejas e caixas com textura premium.</p>
+                    <a href="#produtos">Explorar</a>
+                </article>
+                <article class="card">
+                    <h3>Cozinha Violet</h3>
+                    <p>Utensílios e suportes práticos para o dia a dia.</p>
+                    <a href="#produtos">Explorar</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="beneficios" class="secao secao--destaque">
+            <header class="secao__cabecalho">
+                <h2>Por que escolher a CasaVioleta?</h2>
+            </header>
+            <div class="beneficios">
+                <div class="beneficio">
+                    <h3>Design funcional</h3>
+                    <p>Peças que combinam estética e praticidade para o seu cotidiano.</p>
+                </div>
+                <div class="beneficio">
+                    <h3>Curadoria local</h3>
+                    <p>Marcas brasileiras com produção consciente e materiais duráveis.</p>
+                </div>
+                <div class="beneficio">
+                    <h3>Atendimento humano</h3>
+                    <p>Equipe preparada para ajudar com dicas e combinações.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="produtos" class="secao">
+            <header class="secao__cabecalho">
+                <h2>Destaques da semana</h2>
+                <p>Seleção limitada com descontos especiais para deixar seu lar ainda mais acolhedor.</p>
+            </header>
+            <div class="produtos">
+                <article class="produto">
+                    <div class="produto__tag">-15%</div>
+                    <h3>Conjunto de bandejas ametista</h3>
+                    <p>Perfeitas para servir com charme e organização.</p>
+                    <strong>R$ 149</strong>
+                    <button>Adicionar ao carrinho</button>
+                </article>
+                <article class="produto">
+                    <div class="produto__tag">Novo</div>
+                    <h3>Difusor elétrico violeta</h3>
+                    <p>Ambiente perfumado com luz suave e silenciosa.</p>
+                    <strong>R$ 229</strong>
+                    <button>Adicionar ao carrinho</button>
+                </article>
+                <article class="produto">
+                    <div class="produto__tag">Exclusivo</div>
+                    <h3>Kit organização minimal</h3>
+                    <p>Caixas e potes para deixar tudo no lugar.</p>
+                    <strong>R$ 199</strong>
+                    <button>Adicionar ao carrinho</button>
+                </article>
+            </div>
+        </section>
+
+        <section id="contato" class="secao secao--contato">
+            <div>
+                <h2>Receba novidades e ofertas secretas</h2>
+                <p>Cadastre-se para receber lançamentos e cupons em primeira mão.</p>
+            </div>
+            <form class="formulario">
+                <input type="text" placeholder="Seu nome" aria-label="Seu nome">
+                <input type="email" placeholder="Seu e-mail" aria-label="Seu e-mail">
+                <button type="submit">Quero receber</button>
+            </form>
+        </section>
     </main>
-    <footer>
-        <p class="rodape">Desenvolvido por Samuel Fernandes</p>
+
+    <footer class="rodape">
+        <div>
+            <strong>CasaVioleta</strong>
+            <p>Acessórios para casa com estética sóbria e toques de roxo.</p>
+        </div>
+        <div>
+            <p>Atendimento: (11) 98765-4321</p>
+            <p>contato@casavioleta.com.br</p>
+        </div>
+        <div>
+            <p>Seg-Sex • 9h às 18h</p>
+            <p>São Paulo • Envio nacional</p>
+        </div>
     </footer>
 </body>
 </html>
